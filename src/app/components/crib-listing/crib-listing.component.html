@@ -11,4 +11,8 @@
             </div>
         </div>
     </div>
+
+    <div class="col-sm-4" *ngFor="let crib of cribs">
+      <app-crib-card [crib]="crib"></app-crib-card>
+    </div>
 </div>
